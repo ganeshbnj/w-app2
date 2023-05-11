@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
 import { Button, TextField } from '@mui/material';
-import { grey } from '@mui/material/colors';
+//import { grey } from '@mui/material/colors';
 
 function CityWeather() {
     const [zipCode, setZipCode] = useState('');
@@ -30,14 +30,14 @@ function CityWeather() {
             });
         });
     };
-  
+  /*
     const getBackgroundColor = (temperature) => {
       const maxTemp = 100;
       const minTemp = 0;
       const redValue = Math.floor(255 * (temperature - minTemp) / (maxTemp - minTemp));
       return `rgb(${redValue}, 0, 0)`;
     };
-  
+  */
     return (
       <div 
         className="CityWeather" 
