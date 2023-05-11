@@ -5,7 +5,7 @@ import AccordionDetails from '@mui/material/AccordionDetails';
 import Typography from '@mui/material/Typography';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import CityWeather from './CityWeather';
-import Component1 from './Component1';
+//import Component1 from './Component1';
 import Component2 from './Component2';
 
 export default function SimpleAccordion() {
